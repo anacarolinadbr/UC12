@@ -1,12 +1,10 @@
-
-h1{
-    color:white; /*muda a cor do texto*/
-    background-color: black; /*Muda a cor do fundo*/
-    font-size: 48px; /*Muda o tamanho da fonte*/
+img{
+    width: 400px;
 }
 
-img{
-    width: 300px;
+.titulo{
+    background-color: rgb(90, 27, 27); /* cor do fundo */
+    color: rgb(255, 255, 255);
 }
 
 button{
@@ -22,3 +20,11 @@ button:hover{
     background-color: rgb(112, 47, 47); /*Muda a cor do botão com o mouse em cima*/
 }
 
+.fundo-vermelho{
+    color: white; /* cor do texto */
+    background-color: rgb(90, 27, 27); /* cor do fundo */
+}
+
+img.Netflix{
+    width: 650px;
+}
