@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 2 - Formulários</title>
+</head>
+<body>
+    <form action="">
+        <!--"Input" de texto-->
+        <label for="name">Nome</label>
+        <!--placeholder é para ficar escrito dentro do campo-->
+        <input name="username" type="text" placeholder="Insira seu nome">
+
+        <!--Para email-->
+        <label for="email">Email</label>
+        <input type="email" name="email" id="" placeholder="Insira seu email">
+
+        <!--Para senha-->
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="" placeholder="Insira sua senha">
+
+        <label for="interesse">Interesses</label>
+        <!--Checkbox é para colocar opções para selecionar-->
+        <!--Value no final para fazer as opções-->
+        <input type="checkbox" name="Interesse" id="" value="html"> HTML
+        <input type="checkbox" name="Interesse" id="" value="javascript"> JS
+        <input type="checkbox" name="Interesse" id="" value="css"> CSS
+
+        <label for="genero">Genero</label>
+        <!--Froms de escolher apenas uma opção-->
+        <input type="radio" name="genero" id="" value="masculino"> Masculino
+        <input type="radio" name="genero" id="" value="feminino"> Feminino
+        <input type="radio" name="genero" id="" value="Outros"> Outros
+
+        <label for="curso">Curso</label>
+        <select name="curso" id="">
+            <!--Lista suspensa-->
+            <option value="javascript">Javascript</option>
+            <option value="html">Html</option>
+            <option value="css">Css</option>
+        </select>
+
+        <label for="comentario">Comentario</label>
+        <!--Cols muda o número de linhas-->
+        <!--Rows muda o número de colunas-->
+        <textarea name="comentario" id="" cols="30" rows="10" placeholder="Insira seu comentário"></textarea>
+
+        <!--Caixinha de cor-->
+        <input type="color" name="" id="">
+
+        <!--Botão-->
+        <button type="submit">Enviar</button>
+
+    </form>
+</body>
+</html>
