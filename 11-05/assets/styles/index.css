@@ -1,0 +1,13 @@
+p{
+    background-color: yellow;
+    height: 100px;
+
+}
+
+div{
+    /*display: none - faz o elemento desaparecer*/
+    display: inline-block; /*é para ficar um do lado outro*/
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}

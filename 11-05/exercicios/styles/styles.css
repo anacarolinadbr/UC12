@@ -1,0 +1,89 @@
+/*Exercicio 1
+1 - Qual elemento ocupa a linha inteira? O div
+Qual fica na mesma linha? O Span
+
+div{
+    background-color: aqua;
+}
+span{
+    background-color: aqua;
+}/*
+
+
+/*Exercicio 2
+
+Elas ficam lado a lado ou uma abaixo da outra?  Uma abaixo da outra
+Por quê? O div ele tem como padrão o block, então ele ocupa toda a largura
+
+div{
+    height: 200px;
+    background-color: aqua;
+}*/
+
+/*Exercicio 3
+
+A largura funcionou? Sim
+Por quê? porque span é inline e não aceitam a largura
+
+span{
+    background-color: aqua;
+    width: 200px
+    
+}*/
+
+/*Exercicio 4
+
+O width funciona? Sim
+O comportamento mudou? Sim, o inline-block aceita fica na mesma linha, e a largura e altura
+
+span{
+    display: inline-block;
+    background-color: aqua;
+    width: 200px
+    
+}*/
+
+/*Exercicio 5
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}*/
+
+/*Exercicio 6
+
+Qual respeita width/height? block, inline block
+Qual ignora? inline
+
+.block{
+    width: 150px;
+height: 80px;
+background: gray;
+}
+
+.inline{
+    width: 150px;
+height: 80px;
+background: gray;
+}
+
+.inline-block{
+    width: 150px;
+height: 80px;
+background: gray;
+}
+*/
+
+/*Exercicio 7
+
+Qual diferença visual você percebe?
+No visibility o div desaparece, mas ainda ocupa o espaço
+No display, ele faz todo o elemento desaparecer e o espaço também
+
+div{
+    background-color: blue;
+    display: none;
+}
+*/
+
