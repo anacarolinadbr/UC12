@@ -1,0 +1,93 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+
+h1{
+    margin: 0px;
+}
+
+p{
+    color: black;
+    margin-bottom: 30px;
+    margin: 0px;
+}
+
+.caixa{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px dashed red;
+
+    margin: 0px;
+}
+.caixa2{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px double red;
+
+    margin: 0px;
+
+}
+
+.caixa3{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px solid red;
+
+    margin: 0px;
+}
+
+.caixa4{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px dotted red;
+
+    margin: 0px;
+}
+
+.caixa5{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px inset red;
+
+    margin: 0px;
+}
+
+.caixa6{
+    width: 300px;
+    height: 150px;
+
+    background-color: pink;
+
+    padding: 40px;
+
+    border: 15px hidden red;
+
+    margin: 0px;
+}

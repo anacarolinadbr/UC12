@@ -1,0 +1,70 @@
+/*body{
+    ma
+    background-color: white;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+.card{
+    width: 350px;
+
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: grey;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.preco{
+display: block;
+font-size: 28px;
+font-weight: bold;
+color: green;
+margin-bottom: 25px;
+
+}
+.card button{
+    width: 100px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}*/
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+
+}
+.card{
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,15);
+}
+
+.card img {
+    width: ;
+}
