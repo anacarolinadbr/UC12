@@ -1,70 +1,79 @@
-/*body{
-    ma
-    background-color: white;
-    font-family: Arial, sans-serif;
-    padding: 40px;
+
+body {
+    /*height é altura
+    100vh é que vai ocupar toda a altura da tela
+    */
+    height: 100vh;
+    display: flex;
+    /*Centraliza os elementos na horizontal*/
+    justify-content: center;
+    /**Centraliza os elementos da vertical*/
+    align-items: center;
+    background-color: #5c5b5b;
+
 }
 
-.card{
-    width: 350px;
-
+.card {
+    /*Define a largura do card, que será 300px*/
+    width: 300px;
     background-color: white;
-    margin: 0 auto;
-    padding: 20px;
-    border: 2px solid white;
+    /*Arredonda as bordas*/
     border-radius: 15px;
+    /*Espaço interno entre o conteúdo e a borda*/
+    padding: 15px;
 }
 
 .card img {
     width: 100%;
     border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-.card h2 {
-    color: black;
+    /*dá espaço abaixo da imagem*/
     margin-bottom: 15px;
 }
 
-.card p {
-    color: grey;
+.titulo {
+    /*tamanho da letra*/
+    font-size: 28px;
+    /*deixa em negrito*/
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-size: 16px;
+    color: #666;
+    /*Espaçamento entre linhas*/
+    line-height: 1.4;
     margin-bottom: 20px;
-    line-height: 1.5;
-}
-
-.preco{
-display: block;
-font-size: 28px;
-font-weight: bold;
-color: green;
-margin-bottom: 25px;
 
 }
-.card button{
-    width: 100px;
-    padding: 15px;
+
+.preco {
+    font-size: 32px;
+    font-weight: bold;
+    color: #39a845;
+    margin-bottom: 20px;
+}
+
+.botao {
+    /*vai ocupar toda a largura*/
+    width: 100%;
+    /*espaço interno do botão*/
+    padding: 14px;
     border: none;
     border-radius: 10px;
-    background-color: blue;
+    background-color: #2155ff;
     color: white;
-}*/
+    font-size: 16px;
+    
+}
+/*ativa quando o mouse estiver em cima*/
+.botao:hover {
+    /*muda a cor do botão*/
+    background-color: #143ed1;
+}
 
-body{
-    height: 100vh;
+.container{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f3f3f3;
-
-}
-.card{
-    width: 300px;
-    background-color: white;
-    border-radius: 15px;
-    padding: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0,15);
-}
-
-.card img {
-    width: ;
+    gap: 40px;
 }
