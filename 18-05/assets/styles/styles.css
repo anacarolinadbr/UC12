@@ -1,0 +1,70 @@
+/*@font-face {
+    font-family: "FonteLegal";
+    src: url(../fonts/ResolideSerif_PERSONAL_USE_ONLY.otf);
+}
+h1{
+    font-family: FonteLgeal;
+}
+
+
+.ibm-plex-serif-thin {
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  h2{
+    font-family: IBM Plex Serif ;
+  }
+
+.relative{
+    background-color: aquamarine;
+    padding: 10px;
+    /*fit cotet é ate onde o texto termina
+    width: fit-content;
+    /*Para mover o texto, obrigatorio o position: relative
+    position: relative;
+    top: 1px;
+    left: 30px;
+}  */
+
+.absolute{
+  background-color: lightcoral;
+  padding: 1px 5px;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  border-radius: 50%;
+}
+
+
+.whats{
+  width: 45px;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+
+
+}
+
+.scroll{
+  height: 700px;
+  overflow-y:scroll ;
+  border: 1px solid grey;
+  padding:0px 20px ;
+}
+
+.scroll h1{
+  background-color: yellow;
+  position: sticky;
+  top: 0;
+}
+
+.banner{
+  height: 500px;
+  background-image: url(https://static.vecteezy.com/ti/fotos-gratis/p2/6305848-fofo-cachorrinho-golden-retriever-em-no-jardim-ao-ar-livre-em-fundo-desfocado-gratis-foto.JPG);
+  background-size: cover;
+}
+
+
+
