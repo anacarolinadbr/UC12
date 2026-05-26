@@ -1,0 +1,136 @@
+/*.container-pai{
+    background-color: aqua;
+    padding: 20px;
+    height: 500px;
+    /*Torna um container flexivel
+    display: flex;
+    /*Indica em que direção os filhos serão dispostos (linhas ou colunas)
+    flex-direction: row;
+    /*Indica como os filhos vão ser dispostos no eixo principal
+    IMPORTANTE: em row(linha) o eixo principal é a horizontal. Em colum (coluna) o eixo principal é a vertical
+    
+    justify-content: center ;
+    /*Indica como os filhso vão se disposar no eixo secundário
+    /*IMPORTANTE: O row, eixo secundário é a vertical. 
+    align-items: center;
+    /*gap vão espaça os itens dos filhos
+    gap: 20px;
+    /*Controla os itens se eles vão quebrar em linhas diferentes
+    flex-wrap: wrap;
+}
+
+.container-filho{
+    background-color: blue;
+    padding: 50px;
+    
+
+}
+
+.container-filho-start{
+    
+
+}*/
+
+header{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav{
+    display: flex;
+    gap: 20px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #5c5b5b;
+}
+
+.card{
+    width: 300px;
+    height: 550px;
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    /*dá espaço abaixo da imagem*/
+    margin-bottom: 0 px;
+}
+
+.titulo {
+    /*tamanho da letra*/
+    font-size: 28px;
+    /*deixa em negrito*/
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    min-height: 80px;
+    
+}
+
+.descricao {
+    font-size: 16px;
+    color: #666;
+    /*Espaçamento entre linhas*/
+    line-height: 1.0;
+    margin-bottom: 20px;
+        flex-grow: 1;
+
+
+}
+
+.preco {
+    font-size: 32px;
+    font-weight: bold;
+    color: #39a845;
+    margin-bottom: 20px;
+}
+
+.botao {
+    /*vai ocupar toda a largura*/
+    width: 100%;
+    /*espaço interno do botão*/
+    padding: 14px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2155ff;
+    color: white;
+    font-size: 16px;
+    
+}
+/*ativa quando o mouse estiver em cima*/
+.botao:hover {
+    /*muda a cor do botão*/
+    background-color: #143ed1;
+}
+
+.container{
+    display: flex;
+    gap: 40px;
+}
