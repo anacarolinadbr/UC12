@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #262B38;
+}
+
+.fundo{
+    background-color: #3A3F46;
+    width: 260px;
+    height: 450px;
+    border-radius:12px ;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.tela{
+    background-color: #1E1E1E;
+    width: 220px;
+    height: 70px;
+    margin-top: 20px;
+    border-radius: 6px;
+}
+
+.teclado{
+    height: 250px ;
+    width: 220px;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button{
+    height: 55px;
+    margin: 2px;
+    border-radius: 5px ;
+}
+.igual{
+    background-color: orange;
+    grid-column: span 2;
+}
+.teclaC{
+    background-color: orange;
+}
