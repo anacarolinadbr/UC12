@@ -23,7 +23,7 @@ body{
     
 }
 .tela{
-    background-color: #1E1E1E;
+    background-color: white;
     width: 220px;
     height: 70px;
     margin-top: 20px;
@@ -50,4 +50,9 @@ button{
 }
 .teclaC{
     background-color: orange;
+}
+
+.display{
+    background-color: white;
+
 }
