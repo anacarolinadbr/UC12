@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.container{
+    background-color: black;
+    width: 100%;
+    min-height: 20vh;
+    color: white;
+}
+
+button{
+    border: none;
+    padding: 10px 20px ;
+    background-color: darkorange;
+}
+
+.container2{
+    background-color: black;
+    width: 100%;
+    min-height: 20vh;
+    color: white;
+}
+
+.button2{
+    border: none;
+    padding: 10px 20px ;
+    background-color: darkorange;
+}
