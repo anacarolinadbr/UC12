@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 53, 4);
+    min-height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+h1{
+    color: yellow;
+   font-size: 60px;
+   margin-bottom: 10px; /*Espaço de baixo*/
+    
+}
+.encontre{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.infos{
+    display: flex;
+    justify-content: center;
+    gap: 250px; /*Para afastar os cards*/
+    margin-bottom: 30px;
+
+}
+.card-info{
+    width: 120px;
+    height: 80px;  
+    border: 3px  solid yellow;
+    border-radius: 15px;
+    font-size: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.jogada{
+    font-size: 15px;
+}
+
+.cartas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.carta{
+    flex: 0 0 120px;
+    width: 120px;
+    height: 160px;
+    border: 2px solid white;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
