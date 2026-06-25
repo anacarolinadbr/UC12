@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exercício — Variáveis CSS</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+</head>
+<body class="page">
+
+  <header class="header">
+    <a href="#" class="header__logo">MeuSite</a>
+    <nav class="header__nav">
+      <a href="#">Início</a>
+      <a href="#">Sobre</a>
+      <a href="#">Contato</a>
+    </nav>
+
+    <button id="toggle-tema" class="btn btn--outline">Tema</button>
+  </header>
+
+  <main class="main">
+
+    <article class="card">
+      <span class="card__tag">Novidade</span>
+      <h2 class="card__title">Variáveis CSS são poderosas</h2>
+      <p class="card__body">
+        Defina uma cor uma vez no <code>:root</code> e ela se propaga
+        para todos os componentes automaticamente. Mude aqui, muda tudo.
+      </p>
+      <div class="card__footer">
+        <a href="#" class="btn btn--primary">Saiba mais</a>
+        <a href="#" class="btn btn--outline">Ver código</a>
+      </div>
+    </article>
+
+    <div class="alert">
+      <p class="alert__title">Atenção</p>
+      <p>
+        Ainda não definiu as variáveis no <code>base.css</code>?
+        Os estilos acima não vão aparecer corretamente.
+      </p>
+    </div>
+
+  </main>
+  <script src="./assets/scrpits/scripts.js"></script>
+
+</body>
+</html>
