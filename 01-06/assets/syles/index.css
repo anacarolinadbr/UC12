@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.texto{
+    color: black;
+    font-size: 56px;
+}
+
+div{
+    background-color: black;
+}
+
+.esconder{
+    display: none;
+}
+
+body, html{
+    color: white;
+}
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    background-color: white;
+}
+
+
+.hidden{
+    display: none;
+
+}
+
+/*aplica os estilos abaixo apenas para telas com até 800px*/
+@media (max-width:800px){
+
+    .menu-desktop{
+        display: none;
+    }
+    .hidden{
+        display: block;
+    }
+
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        top: 100%;
+        right: 10px;
+        padding: 7px;
+        border-radius: 0px 0px 10px 10px;
+    }
+}
