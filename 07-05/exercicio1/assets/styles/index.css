@@ -1,0 +1,30 @@
+img{
+    width: 400px;
+}
+
+.titulo{
+    background-color: rgb(90, 27, 27); /* cor do fundo */
+    color: rgb(255, 255, 255);
+}
+
+button{
+    background-color: darkred;
+    border: none; /*muda a borda*/
+    border-radius: 15px; /*Arredonda as bordas*/
+    color: white;
+    padding: 5px 15px; /*muda o espaçamento dentro do elemento*/
+    cursor: pointer; /*Para deixar o mouse em formato de mão*/
+}
+
+button:hover{
+    background-color: rgb(112, 47, 47); /*Muda a cor do botão com o mouse em cima*/
+}
+
+.fundo-vermelho{
+    color: white; /* cor do texto */
+    background-color: rgb(90, 27, 27); /* cor do fundo */
+}
+
+img.Netflix{
+    width: 650px;
+}

@@ -1,0 +1,42 @@
+h1{
+    color:white; /*muda a cor do texto*/
+    background-color: black; /*Muda a cor do fundo*/
+    font-size: 48px; /*Muda o tamanho da fonte*/
+}
+
+h2{
+    color: blue;
+    background-color:white;
+}
+
+/*Escrevendo no lado do "h2", e adicionando "." e nome, é possível trocar as cores específicas de um titulo*/
+.fundo-azul{
+    color: white;
+    background-color: blue;
+}
+
+img{
+    width: 300px; /*Ajusta o tamanho da imagem*/
+    /*height: 100px; Ajusta a altura*/
+}
+
+a{
+    text-decoration: none;
+    /*muda a decoração do texto (sublinhado)*/
+    color: darkred;
+}
+
+button{
+    background-color: darkred;
+    border: none; /*muda a borda*/
+    border-radius: 15px; /*Arredonda as bordas*/
+    color: white;
+    padding: 5px 15px; /*muda o espaçamento dentro do elemento*/
+    cursor: pointer; /*Para deixar o mouse em formato de mão*/
+}
+
+/*Aplica esse estilo quando passar o mouse em cima*/
+button:hover{
+    background-color: rgb(112, 47, 47); /*Muda a cor do botão com o mouse em cima*/
+}
+
